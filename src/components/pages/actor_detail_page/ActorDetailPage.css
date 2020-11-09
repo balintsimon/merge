@@ -1,0 +1,350 @@
+.actor-detail-container-column {
+    height: 300px;
+}
+
+.actor-detail-container {
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.actor-poster-container {
+    height: 100%;
+    width: 40%;
+    background-color: #343434;
+    text-align: center;
+    display: flex;
+}
+
+.actor-poster {
+    margin: auto;
+    height: 100%;
+    width: 50%;
+    background-color: #2e2e2e;
+}
+
+.actor-poster-img {
+    height: 100%;
+
+}
+
+.actor-information-container {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.actor-name-container {
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: #343434;
+}
+
+.actor-name-placeholder {
+    text-align: center;
+    width: 10%;
+}
+
+.actor-name {
+    width: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.actor-name-container-div {
+    width: 95%;
+    margin: auto;
+}
+
+.actor-birth-death-container {
+    height: 30%;
+    background-color: #c5ba26;
+    display: flex;
+    flex-direction: row;
+}
+
+.actor-birth-date {
+    width: 40%;
+    text-align: center;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.actor-birth-date-title {
+    height: 50%;
+    display: flex;
+    align-content: center;
+}
+
+.actor-age-dead {
+    width: 20%;
+    text-align: center;
+    background-color: #343434;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.actor-age-alive {
+    width: 20%;
+    text-align: center;
+    background-color: #343434;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.age-title {
+    margin: auto;
+    height: 50%;
+    display: flex;
+    align-content: center;
+}
+
+.age-title-text {
+    margin: auto;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+.age-value {
+    margin: auto;
+    height: 50%;
+    display: flex;
+    align-content: center;
+    font-size: 24px;
+    color: white;
+
+}
+
+.age-value-text {
+    margin: auto;
+}
+
+.actor-death-date {
+    width: 40%;
+    text-align: center;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.actor-death-date-title {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    margin: auto;
+}
+
+.actor-birth-date-title-text {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    margin: auto;
+}
+
+.birth-death-value {
+    margin: auto;
+    font-size: 24px;
+    color: white;
+}
+
+.actor-birth-place-imdb-container {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.actor-birth-place-container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.actor-imdb-logo-container {
+    width: 20%;
+    background: #2e2e2e;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.actor-imdb-logo {
+    margin: auto;
+}
+
+.actor-birth-place-title {
+    margin: auto;
+    height: 50%;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    background-color: #343434;
+}
+
+.actor-birth-place-title-text {
+    margin: auto;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+.actor-birth-place-value-container {
+    margin: auto;
+    display: flex;
+    align-content: center;
+    height: 50%;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+.actor-birth-place-value {
+    margin: auto;
+    font-size: 22px;
+    color: white;
+}
+
+.biography-container-column {
+    margin-top: 20px;
+    height: 200px;
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+}
+
+.biography-container {
+    background-color: #2e2e2e;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    font-size: 16px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 30px;
+    color: white;
+    line-height: 2em;
+}
+
+.cast-title-container-column {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cast-title-container {
+    margin: auto;
+    height: 60px;
+    width: 80%;
+    background-color: #2e2e2e;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.cast-value {
+    margin: auto;
+}
+
+.cast-container-column {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cast-container {
+    margin: auto;
+    max-height: 800px;
+    width: 80%;
+    background-color: #2e2e2e;
+    overflow: scroll;
+}
+
+.cast-rows-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cast-row-container {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    background-color: #414142;
+    flex-direction: row;
+    align-items: center;
+    height: 140px;
+}
+
+.link-container-cast-item {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 130px;
+
+}
+
+.cast-item-container {
+    width: 100%;
+    height: 130px;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: row;
+}
+
+.cast-image-container {
+    width: 30%;
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+}
+
+.cast-poster-img {
+    height: 100%;
+    width: auto;
+    margin: auto;
+}
+
+.cast-detail-container {
+    width: 70%;
+}
+
+.cast-movie-title-container {
+    padding: 1%;
+    height: 50%;
+    color: white;
+}
+
+.character-name-container {
+    padding: 1%;
+    height: 25%;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.cast-movie-year-container {
+    height: 25%;
+    padding: 1%;
+    color: white;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+

@@ -1,0 +1,144 @@
+.cover-container-column {
+    height: 250px;
+    text-align: center;
+    background-color: #2e2e2e;
+    padding: 0;
+}
+
+.cover-container {
+    display: flex;
+    background-color: #343434;
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: inherit;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cover-item {
+    height: 90%;
+    width: 150px;
+    background-color: #2e2e2e;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.cover-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+.schedule-container-column {
+    text-align: center;
+    height: 100%;
+    background-color: #343434;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2e2e;
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    align-content: flex-start;
+    align-items: center;
+
+}
+
+.schedule-row-item {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule-item {
+    height: 80px;
+    width: 120px;
+}
+
+.schedule-first-row {
+    background-color: #343434;
+    width: 100%;
+}
+
+.schedule-date-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2e2e2e;
+}
+
+.schedule-movie-row {
+    width: 100%;
+}
+
+.schedule-show-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule-movie-detail {
+    text-align: left;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-content: stretch;
+    background-color: #343434;
+}
+
+.schedule-movie-title {
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.schedule-movie-year {
+    width: 100%;
+    text-align: right;
+    color: #e6b31e;
+    font-style: italic;
+    margin-left: -5px;
+    align-self: baseline;
+}
+
+.schedule-movie-runtime {
+    color: white;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.schedule-starting-time {
+    background-color: #343434;
+    padding: 20px;
+    color: #e6b31e;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.schedule-day {
+    color: white;
+    font-size: 1.15em;
+}
+
+.schedule-date {
+    font-size: 0.9em;
+    color: white;
+    font-style: italic;
+
+}
+
